@@ -228,7 +228,7 @@
 }
 
 .footerbody {
-	background: linear-gradient(-45deg, #353434, #a2cf37, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg, #353434, #ee7f3f, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
