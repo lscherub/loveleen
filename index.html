@@ -17,18 +17,27 @@
     <style>
         @font-face {
             font-family: myFirstFont;
-            src: url(fonts/Vollkorn-Regular.ttf);
+            src: url(fonts/Lato-Regular.ttf);
         }
 
         .floattext{
             float: right;
         } 
+        @media (min-width:624px) {
+            :root{
+                font-size: 88%;
+            }
+            
+        }
         @media (max-width: 624px) {
 	        :root {
 		        font-size: 70%;
 	        }
         }
         h1{
+            font-family: myFirstFont;
+        }
+        *{
             font-family: myFirstFont;
         }
     </style>
